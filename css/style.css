@@ -12,15 +12,22 @@ body {
   flex-direction: column;
 }
 
-.paper {
-  background-image: url('../assets/bg.jpg');
-  background-size: 850px auto;
+#paper {
+  /*background-image: url('../assets/bg.jpg');*/
+  /*background-size: contain;*/
   box-shadow: 0px 10px 30px #6b2e5325;
   margin: auto;
-  height: 3500px;
-  min-height: 90dvh;
-  width: 850px;
+  /*height: 3500px;*/
+  /*min-height: 90dvh;*/
+  width: 845px;
   max-width: 90vw;
+  position: relative;
+  overflow: hidden;
+}
+
+#invitacion {
+  width: 100%;
+  height: auto;
 }
 
 .link {
@@ -28,11 +35,11 @@ body {
   font-optical-sizing: auto;
   font-weight: 550;
   font-style: italic;
-  font-size: 2.75rem;
+  /*font-size: 16px;*/
   margin: auto;
   text-decoration: none;
   color: #f8f3f1;
-  transition: ease-in-out 0.2s;
+  transition: color ease-in-out 0.2s;
 }
 
 .link:hover {
@@ -40,7 +47,9 @@ body {
 }
 
 #ubicacion {
-  position: relative;
-  top: 1545px;
-  width: 100%;
+  position: absolute;
+  top: 44.95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*background-color:#ff0000 ;*/
 }
