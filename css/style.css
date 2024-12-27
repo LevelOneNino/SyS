@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #f7ebd2;
+  background-color: #efe8da;
 }
 
 .column-flex {
@@ -12,13 +12,14 @@ body {
   flex-direction: column;
 }
 
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
 #paper {
-  /*background-image: url('../assets/bg.jpg');*/
-  /*background-size: contain;*/
   box-shadow: 0px 10px 30px #6b2e5325;
   margin: auto;
-  /*height: 3500px;*/
-  /*min-height: 90dvh;*/
   width: 845px;
   max-width: 90vw;
   position: relative;
@@ -30,26 +31,82 @@ body {
   height: auto;
 }
 
+#audio-controls{
+  position: absolute;
+  top: 11.50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#audio::-webkit-media-controls-panel{
+  background-color: #fbfbfb;
+}
+
 .link {
-  font-family: "Playfair Display", serif;
+  font-family: "prata", serif;
   font-optical-sizing: auto;
   font-weight: 550;
   font-style: italic;
-  /*font-size: 16px;*/
-  margin: auto;
+  margin-inline: auto;
   text-decoration: none;
   color: #f8f3f1;
   transition: color ease-in-out 0.2s;
 }
 
 .link:hover {
-  color: #ffb835;
+  color: #856547ff;
 }
 
 #ubicacion {
   position: absolute;
-  top: 44.95%;
+  top: 57.35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+#restaurante {
+  position: absolute;
+  top: 57.35%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+#dresscode {
+  position: absolute;
+  top: 72.69%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*background-color:#ff0000 ;*/
+}
+
+
+#asistencia {
+  position: absolute;
+  top: 89.95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#countdown {
+  position: absolute;
+  top: 32.50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "prata";
+  color: #ebbc47ff;
+  width: 80%;
+}
+
+#countdown .container {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+#cuenta {
+  font-family: "prata", serif;
+  font-size: 13px;
+  color: #F59905;
+  position: absolute;
+  top: 96.45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

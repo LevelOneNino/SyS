@@ -18,9 +18,9 @@
     <link rel="preconnect"
           href="https://fonts.gstatic.com"
           crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Prata&family=Rouge+Script&display=swap"
           rel="stylesheet">
-    <script src="js/autoplay.js"> </script>
+    <script src="js/countdown.js"> </script>
     <script src="js/font.js"> </script>
     <link rel="stylesheet"
           type="text/css"
@@ -35,19 +35,84 @@
         <img id="invitacion"
              src="assets/bg.jpg"
              alt="invitacion">
+
+        <div id="audio-controls">
+          <audio id="audio"
+                 src="assets/audio/falling.mp3"
+                 controls>
+          </audio>
+        </div>
+
+        <div id="countdown"
+             class="row-flex">
+
+          <div class="container">
+            DÍAS
+            <div id="dias">
+              00
+            </div>
+          </div>
+
+          <div class="container">
+            HORAS
+            <div id="horas">
+              00
+            </div>
+          </div>
+
+          <div class="container">
+            MIN
+            <div id="minutos">
+              00
+            </div>
+          </div>
+
+          <div class="container">
+            SEG
+            <div id="segundos">
+              00
+            </div>
+          </div>
+        </div>
+
         <div id="ubicacion"
              class="column-flex">
           <a class="link"
              href="https://www.google.com/maps/place/Iglesia+de+la+Orden+Tercera/@10.4210656,-75.5482451,17z/data=!3m1!4b1!4m6!3m5!1s0x8ef62f757418cc87:0xa25c9c932663ce9d!8m2!3d10.4210656!4d-75.5482451!16s%2Fg%2F11c1nqlmnl?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
              target="_blank">
-            Ubicación
+            Ver ubicación
           </a>
         </div>
-        <audio id="audio"
-               src="assets/audio/falling.mp3"
-               autoplay
-               allow="autoplay">
-        </audio>
+
+        <div id="restaurante"
+             class="column-flex">
+          <a class="link"
+             href="https://www.google.com/maps/place/OSH+Hotel+Cartagena/@10.4233026,-75.5476132,17z/data=!4m9!3m8!1s0x8ef62f9de026a975:0xaea05bccb994fcf6!5m2!4m1!1i2!8m2!3d10.4232973!4d-75.5450383!16s%2Fg%2F11kc8gtdvc?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+             target="_blank">
+            Ver ubicación
+          </a>
+        </div>
+
+        <div id="dresscode"
+             class="column-flex">
+          <a class="link"
+             href="https://co.pinterest.com/stefhannyr/dress-guide-ss/?invite_code=e51b4cae4597443591268d6ef79d125c&sender=198580802227816725"
+             target="_blank">
+            Referencia
+          </a>
+        </div>
+
+        <div id="asistencia"
+             class="column-flex">
+          <a class="link"
+             href="https://www.google.com/maps/place/Iglesia+de+la+Orden+Tercera/@10.4210656,-75.5482451,17z/data=!3m1!4b1!4m6!3m5!1s0x8ef62f757418cc87:0xa25c9c932663ce9d!8m2!3d10.4210656!4d-75.5482451!16s%2Fg%2F11c1nqlmnl?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+             target="_blank">
+            Click aquí
+          </a>
+        </div>
+        <div id="cuenta">
+          78721721778
+        </div>
       </div>
     </main>
   </body>
