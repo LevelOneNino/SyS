@@ -31,13 +31,14 @@ body {
   height: auto;
 }
 
-#audio-controls{
+#audio-controls {
   position: absolute;
-  top: 11.50%;
+  top: 13.30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#audio::-webkit-media-controls-panel{
+
+#audio::-webkit-media-controls-panel {
   background-color: #fbfbfb;
 }
 
@@ -58,14 +59,14 @@ body {
 
 #ubicacion {
   position: absolute;
-  top: 57.35%;
+  top: 57.94%;
   left: 30%;
   transform: translate(-50%, -50%);
 }
 
 #restaurante {
   position: absolute;
-  top: 57.35%;
+  top: 57.94%;
   left: 70%;
   transform: translate(-50%, -50%);
 }
@@ -80,7 +81,7 @@ body {
 
 #asistencia {
   position: absolute;
-  top: 89.95%;
+  top: 90.17%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -92,7 +93,7 @@ body {
   transform: translate(-50%, -50%);
   font-family: "prata";
   color: #ebbc47ff;
-  width: 80%;
+  width: 75%;
 }
 
 #countdown .container {
@@ -101,10 +102,15 @@ body {
   text-align: center;
 }
 
+#countdown div div {
+  color: #8B4E70;
+}
+
 #cuenta {
   font-family: "prata", serif;
   font-size: 13px;
   color: #F59905;
+  text-decoration: none;
   position: absolute;
   top: 96.45%;
   left: 50%;
