@@ -22,6 +22,7 @@
           rel="stylesheet">
     <script src="js/countdown.js"> </script>
     <script src="js/font.js"> </script>
+    <script src="js/asistencia.js"> </script>
     <link rel="stylesheet"
           type="text/css"
           href="css/style.css">
@@ -103,12 +104,24 @@
         </div>
 
         <div id="asistencia"
-             class="column-flex">
-          <a class="link"
-             href="https://www.google.com/maps/place/Iglesia+de+la+Orden+Tercera/@10.4210656,-75.5482451,17z/data=!3m1!4b1!4m6!3m5!1s0x8ef62f757418cc87:0xa25c9c932663ce9d!8m2!3d10.4210656!4d-75.5482451!16s%2Fg%2F11c1nqlmnl?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
-             target="_blank">
-            Click aquí
-          </a>
+             class="column-flex"
+             style="width: 40%;">
+          <div class="input-group">
+            <input id="asistenciaInput"
+                   type="text"
+                   class="form-control"
+                   style="padding: 4% 5%"
+                   name="acceso"
+                   placeholder="Código de acceso">
+            <div class="input-group-append">
+              <button id="asistenciaButton"
+                      type="button"
+                      class="border-0"
+                      onclick="acceder()">
+                Entrar
+              </button>
+            </div>
+          </div>
         </div>
         <div id="cuenta">
           78721721778

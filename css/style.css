@@ -80,10 +80,31 @@ body {
 
 
 #asistencia {
+  font-family: "prata", serif;
   position: absolute;
+
   top: 90.17%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#asistenciaInput {
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+#asistenciaButton {
+  height: 100%;
+  padding: 25% 25%;
+  color: gray;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+#asistenciaButton:hover {
+  color: white;
+  background-color: #aaa3c2;
+  transition: background-color ease-in-out 0.2s, color ease-in-out 0.2s;
 }
 
 #countdown {
